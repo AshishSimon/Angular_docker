@@ -1,7 +1,7 @@
 FROM centos
 
 # Maintainer name 
-MAINTAINER Ashish Simon George "ashish.george@calix.com"
+MAINTAINER Ashish Simon George "<email>"
 
 #RUN yum upgrade
 RUN yum -y update
