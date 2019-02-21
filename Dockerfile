@@ -17,7 +17,7 @@ RUN mkdir  /usr/src/app
 WORKDIR /usr/src/app
 
 # Instaling Angular 7.2.6
-RUN npm install -g @angular/cli@6.2.4
+RUN npm install -g @angular/cli
 
 # Run npm install for install from package.json
 #COPY ../ui_service/aws-test/package.json /usr/src/app/package.json
